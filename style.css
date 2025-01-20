@@ -1,0 +1,198 @@
+/* -----Font Section----- */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ------Shared style----- */
+.display-flex{
+    display: flex;
+}
+.hide-ld{
+    display: none;
+}
+
+
+
+/* -------Navbar----- */
+.navbar-container{
+    max-width: 1440px;
+    margin: 20px auto 0px auto;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1160px;
+    margin: 0px auto;
+}
+
+/* logo  */
+.logo-sec{
+    align-items: center;
+    gap: 10px;
+}
+.logo-sec img{
+    width: 64px;
+    height: 64px;
+}
+.logo-sec h1{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 30px;
+}
+
+/* menu  */
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 30px;
+    margin-right: 32px;
+}
+.m-home{
+    color: #FEA301;
+}
+.m-about{
+    color: #01ACFD;
+}
+.m-facilities{
+    color: #05D4DF;
+}
+.m-admission{
+    color: #5D58EF;
+}
+
+.menu-btn button{
+    padding: 10px 60px;
+    background: #FEA301;
+    border-radius: 12px;
+    border: none;
+}
+.menu-btn a{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+/* Banner Section  */
+.banner-container{
+    gap: 50px;
+    max-width: 1160px;
+    margin: 0px auto;
+}
+.banner-text{
+    margin: auto 0px;
+}
+.banner-text h1{
+    font-size: 3.5rem;    
+    font-weight: bold;
+    line-height: 61px;
+}
+.banner-text p{
+    font-size: 1.25rem;
+    margin: 24px 0px;
+}
+.banner-text button{
+    font-size: 1.25rem;
+    background: #000;
+    padding: 10px 47px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+}
+.banner-text a{
+    color: white;
+    text-decoration: none;
+}
+.empower{
+    color: #FEA301;
+
+}
+.towards-vision{
+    color: #01ACFD;
+}
+
+.banner-img img{
+    max-height: 575px;
+    max-width: 470px;
+}
+
+
+/* Responsive  */
+/* Small Devices  */
+@media only screen and (max-width:576px){
+    /* shared style  */
+    .hide-sd{
+        display: none;
+    }
+    .show-sd{
+        display: block;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    /* navbar  */
+    .navbar-container{
+        margin: 0px;
+        border: 0.5px solid #FEA301;
+    }
+    .navbar{
+        padding: 12px 16px ;
+        /* border: 0.5px solid #FEA301; */
+    }
+    .logo-sec img {
+        width: 45px;
+        height: 45px;
+    }
+    .fa-bars{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+    }
+
+    /* Banner Section  */
+    .banner-container{
+        flex-direction: column-reverse;
+        margin: 30px 15px 0px 15px;
+        gap: 20px;
+    }
+    .banner-text{
+        text-align: center;
+    }
+    .banner-img{
+        text-align: center;
+    }
+    .banner-img img{
+        /* width: 335px;
+        height: 412px; */
+        width: 100%;
+    }
+    .banner-text h1{
+        font-size: 2rem;
+        line-height: normal;
+    }
+    .banner-text p{
+        font-size: 0.875rem;
+        margin: 18px 0px;
+    }
+    .banner-text button{
+        font-size: 1rem;
+        padding: 8px 24px;
+        border-radius: 8px;
+    }
+}
