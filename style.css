@@ -129,6 +129,100 @@
     max-width: 470px;
 }
 
+/* Standard Curriculam  */
+.curriculam{
+    max-width: 1440px;
+    background-image: url(./assets/bg.png);
+    margin: 0px auto;
+}
+.curriculam-container{
+    max-width: 1160px;
+    margin: 0px auto;
+   
+}
+.curriculam-container h2{
+    font-size: 2.575rem;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.sc-cart-container{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    gap: 28px;
+    padding-bottom: 80px;
+
+}
+.sc-cart{
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 36px 28px;
+}
+.sc-cart-1{
+    background: linear-gradient(to top,rgba(255, 255, 255, 1), rgba(222, 245, 255, 0.7));
+    box-shadow: inset 0px 0px 19.16px 0.1px rgba(0, 0, 0, 0.05);
+    border: 0.6px solid #DEF5FF;
+}
+.sc-cart-2{
+    background: linear-gradient(to top,rgba(255, 255, 255, 1), rgba(255, 244, 220, 0.7));
+    box-shadow: inset 0px 0px 19.16px 0.1px rgba(0, 0, 0, 0.05);
+    border: 0.6px solid #FFF4DC;
+}
+.sc-cart-3{
+    background: linear-gradient(to top,rgba(255, 255, 255, 1), rgba(238, 225, 255, 0.7));
+    box-shadow: inset 0px 0px 19.16px 0.1px rgba(0, 0, 0, 0.05);
+    border: 0.6px solid #DEF5FF;
+}
+.sc-cart img{
+    width: 136px;
+    height: 136px;
+}
+.sc-cart h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+.sc-cart p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+.sc-cart a{
+
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28px;
+}
+.sc-1-a{
+    color: #64C8FF;  
+}
+.sc-2-a{
+    color: #F0AA00;
+}
+.sc-3-a{
+    color: #8700FF;
+}
+
+/* Arrow Icon */
+.arrow-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom:60px ;
+}
+.fa-circle-arrow-left{
+    font-size: 60px;
+}
+
 
 /* Responsive  */
 /* Small Devices  */
@@ -149,7 +243,7 @@
     /* navbar  */
     .navbar-container{
         margin: 0px;
-        border: 0.5px solid #FEA301;
+        border-bottom: 0.5px solid #FEA301;
     }
     .navbar{
         padding: 12px 16px ;
@@ -160,8 +254,7 @@
         height: 45px;
     }
     .fa-bars{
-        width: 30px;
-        height: 30px;
+        font-size: 1.8rem;
         text-align: center;
     }
 
@@ -194,5 +287,21 @@
         font-size: 1rem;
         padding: 8px 24px;
         border-radius: 8px;
+    }
+    .sc-cart-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .curriculam-container{
+        padding-bottom: 1.25rem;
+    }
+    .curriculam-container h2{
+        font-size: 1.625rem;
+        line-height: normal;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .sc-cart-container{
+        padding: 0px 1rem;
+        gap: 1rem;
     }
 }
