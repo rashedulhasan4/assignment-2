@@ -242,6 +242,7 @@
     margin: 0px auto;
     background-image: url("../assets/bg.png"),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
 }
