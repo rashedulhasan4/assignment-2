@@ -518,8 +518,14 @@
         padding-bottom: 25px;
     }
     .small-cart-container{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
+    .story-btn{
+        padding: 7px 10px ;
+        top: -25px;
+        left: 10px;
+        color: white;
+     }
     .view-all{
         padding-bottom: 40px;
     }
