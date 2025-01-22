@@ -133,6 +133,8 @@
 .curriculam{
     max-width: 1440px;
     background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0px auto;
 }
 .curriculam-container{
@@ -181,6 +183,7 @@
     background: linear-gradient(to bottom,rgba(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgba(255, 255, 255);
     box-shadow: inset 0px 0px 19.16px 0.1px rgba(0, 0, 0, 0.05);
     border: 0.6px solid #DEF5FF;
+    
 }
 .sc-cart img{
     width: 136px;
@@ -231,6 +234,8 @@
     margin: 0px auto;
     background-image: url("../assets/bg.png"),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .our-story-container{
     max-width: 1160px;
@@ -347,6 +352,71 @@
 
 
 
+/* // Footer Section  */
+.ftr{
+    max-width: 1440px;
+    margin: 0px auto;
+    background-color: #01ACFD;
+}
+.ftr-container{
+    max-width: 1160px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 124px 10px 174px 10px;
+    margin: 0px auto;
+}
+.ftr-logo{
+    gap: 16px;
+}
+.ftr-logo img{
+    width: 70px;
+    height: 82px;
+}
+.ftr-logo h1{
+    font-size: 2.7rem;
+    font-weight: bold;
+    line-height: 45px;
+    color: white;
+}
+.ftr-brand p{
+    font-size: 1.25rem;
+    margin-top: 35px;
+    padding-right: 170px;
+    color: white;
+}
+.ftr-menu-ul{
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.ftr-menu h6{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+}
+.ftr-menu-ul{
+    list-style: none;
+}
+.ftr-home, .ftr-about, .ftr-facilities, .ftr-admission{
+    font-size: 1.24rem;
+    color: white;
+    text-decoration: none;
+}
+
+.social-logos h5{
+    font-size: 1.625rem;
+    line-height: 1.625rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+.ftr-logos img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+
 /* Responsive  */
 /* Small Devices  */
 @media only screen and (max-width:576px){
@@ -444,5 +514,19 @@
     }
     .view-all{
         padding-bottom: 40px;
+    }
+
+    /* Footer Section  */
+    .ftr-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+        padding: 4rem 0 3.75rem 1.25rem;
+    }
+    .ftr-logo h1{
+        font-size: 2.1rem;
+    }
+    .ftr-brand p{
+        padding-right: 1.25rem;
+        margin-top: 1.25rem;
     }
 }
