@@ -359,6 +359,8 @@
 .marq{
     background-color: #5D58EF;
     padding: 10px 0;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .run{
     color: white;
