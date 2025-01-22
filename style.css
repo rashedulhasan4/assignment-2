@@ -356,7 +356,13 @@
     text-decoration: none;
     color: white;
 }
-
+.marq{
+    background-color: #5D58EF;
+    padding: 10px 0;
+}
+.run{
+    color: white;
+}
 
 
 /* // Footer Section  */
