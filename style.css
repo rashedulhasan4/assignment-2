@@ -1,7 +1,15 @@
 /* -----Font Section----- */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .quicksand-normal {
     font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .raleway-normal {
+    font-family: "Raleway", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
